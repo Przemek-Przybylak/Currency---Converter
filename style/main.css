@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    margin: 0px auto;
+    background-color: white;
+}
