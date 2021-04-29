@@ -9,4 +9,6 @@ html {
 .container {
     margin: 0px auto;
     background-color: white;
+    background-image: url("../pictures/money.jpg");
+    background-size: cover;
 }
