@@ -23,7 +23,7 @@
         }
     }
 
-    const amountResultText = (finalResult, currencyValue) => {
+    const onResultPrint = (finalResult, currencyValue) => {
         result.innerText = `${finalResult} ${currencyValue}`;
     }
 
@@ -36,7 +36,7 @@
         const currencyValue = currency.value;
 
         calculateResult(PLNAmount, currencyValue);
-        amountResultText(finalResult, currencyValue);
+        onResultPrint(finalResult, currencyValue);
         
     };
 
